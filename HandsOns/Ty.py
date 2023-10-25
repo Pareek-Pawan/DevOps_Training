@@ -1,1 +1,4 @@
-print(6 + 4 / 2 - (1 * 2))
+
+def Newfunc():
+    print("Hi, Welcome to Python")
+Newfunc()
