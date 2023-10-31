@@ -2,9 +2,9 @@ from tkinter import *
 import pandas
 import random
 
-# BACKGROUND_COLOR = "#B1DDC6"
-# current_card = {}
-# to_learn = {}
+BACKGROUND_COLOR = "#B1DDC6"
+current_card = {}
+to_learn = {}
 
 try:
     data = pandas.read_csv("data/words_to_learn.csv")
