@@ -8,5 +8,6 @@ weight = input("Enter the Weight : \n")
 H1 = float(height)
 W1 = int(weight)
 Bmi = W1/(H1*H1)
+
 Bmi1 = int(Bmi)
 print(Bmi1)
