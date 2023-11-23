@@ -1,0 +1,38 @@
+Advanced Docker Commands
+
+Advanced Docker commands serve the purpose of handling intricate container management operations. These include tasks like defining multi-container applications, managing networks and data storage, monitoring container performance, examining object details, and orchestrating container clusters. Consider signing up for the Master of Science in Computer Science from LJMU to learn more about advanced Docker commands.
+
+Some of the most used advanced Docker commands have been listed below for your reference:
+
+Docker-compose
+This Docker tool is used for defining and controlling multi-container applications. It employs a YAML file to specify the necessary services, networks, and volumes for the application, simplifying the deployment process.
+
+Docker network
+This advanced command manages networks that enable communication between containers. It allows containers to interact with each other or external systems by connecting them to specific networks.
+
+Docker volume
+This command handles persistent data storage for containers. It provides a means to store and share data between containers or between containers and the host system.
+
+Docker logs
+This command retrieves container-generated logs, displaying output and error messages. This aids in troubleshooting and debugging by providing insights into a running container’s activities.
+
+Docker exec
+This command executes commands within a running container. It facilitates interactive or detached execution of commands, useful for tasks like debugging or configuration changes.
+
+Docker stats
+This command presents real-time resource usage statistics for running containers. It offers information on CPU, memory, and network utilisation, assisting in monitoring and optimising container performance.
+
+Docker inspect
+This command provides detailed information about Docker objects, including containers, images, networks, and volumes. It offers an extensive view of configuration, network settings, and other object-specific details.
+
+Docker history
+This command reveals an image’s construction history, including layers and commands used. It aids in understanding an image’s size, dependencies, and modifications made throughout its development.
+
+Docker commit
+This command creates a new image from changes made to a running container, preserving its current state. This enables the storage and sharing of modified containers as new images.
+
+Docker save/load
+This command archives and restores Docker images to/from a tarball file. It facilitates exporting and importing Docker images and making them transferable across different Docker environments.
+
+Docker swarm
+This command facilitates the creation and management of a cluster of Docker nodes. It supports container orchestration and scalability, allowing for the deployment and administration of containers across multiple hosts in a swarm cluster.
